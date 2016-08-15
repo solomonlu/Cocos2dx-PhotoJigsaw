@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BannerDemoActivity" >
+
+    <RelativeLayout
+        android:id="@+id/bannercontainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/refreshBannerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="刷新Banner" />
+
+        <Button
+            android:id="@+id/showBannerInListHeaderButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:enabled="true"
+            android:text="在ListHeader展示Banner" />
+    </LinearLayout>
+
+</LinearLayout>

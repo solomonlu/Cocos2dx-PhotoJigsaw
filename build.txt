@@ -1,0 +1,3 @@
+android cmd:
+compile:cocos compile -p android -j 4
+aapt:aapt d badging PhotoJigsawGame.apk

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">照片拼图</string>
+    <string name="toast_text">再按一次退出游戏</string>
+</resources>
